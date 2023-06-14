@@ -36,3 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/test.py
+/out/artifacts/Java_crows_nest_jar/Java_crows_nest.jar
