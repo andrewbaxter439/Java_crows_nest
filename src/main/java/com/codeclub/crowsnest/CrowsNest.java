@@ -42,6 +42,6 @@ public class CrowsNest {
             article = "A" + article.substring(1);
         }
 
-        System.out.println(String.format("Ahoy, Captain, %s %s off the starboard bow!", article, word));
+        System.out.printf("Ahoy, Captain, %s %s off the starboard bow!%n", article, word);
     }
 }

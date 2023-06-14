@@ -10,13 +10,13 @@ import java.io.PrintStream;
 
 class CrowsNestTest {
 
-    private String out_format = "Ahoy, Captain, %s %s off the starboard bow!";
-    private String[] consonant_words = {"brigantine", "clipper", "dreadnought", "frigate", "galleon", "haddock",
+    private final String out_format = "Ahoy, Captain, %s %s off the starboard bow!";
+    private final String[] consonant_words = {"brigantine", "clipper", "dreadnought", "frigate", "galleon", "haddock",
             "junk", "ketch", "longboat", "mullet", "narwhal", "porpoise", "quay",
             "regatta", "submarine", "tanker", "vessel", "whale", "xebec", "yatch",
             "zebrafish"};
 
-    private String[] vowel_words = {"aviso", "eel", "iceberg", "octopus", "upbound"};
+    private final String[] vowel_words = {"aviso", "eel", "iceberg", "octopus", "upbound"};
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
@@ -39,7 +39,7 @@ class CrowsNestTest {
     @Test
     public void helpOutput() {
         CrowsNest.main(new String[]{"-h"});
-        Assertions.assertTrue(outputStreamCaptor.toString().indexOf("Usage") != -1);
+        Assertions.assertTrue(outputStreamCaptor.toString().contains("Usage"));
     }
 
     @Test

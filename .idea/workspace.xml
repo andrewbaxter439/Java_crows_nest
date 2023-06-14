@@ -9,19 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de91bbca-ca89-4ece-b762-7c4a2723685b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_crows_nest_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclub/crowsnest/CrowsNest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeclub/crowsnest/CrowsNestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+    <list default="true" id="de91bbca-ca89-4ece-b762-7c4a2723685b" name="Changes" comment="Things not needed set to ignore">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclub/crowsnest/CrowsNestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclub/crowsnest/CrowsNestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,8 +183,23 @@
       <updated>1686685125492</updated>
       <workItem from="1686685139275" duration="179000" />
       <workItem from="1686686258383" duration="3041000" />
-      <workItem from="1686693219614" duration="7592000" />
+      <workItem from="1686693219614" duration="8402000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of working app">
+      <created>1686732655758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686732655758</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Things not needed set to ignore">
+      <created>1686732768154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686732768154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,5 +215,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit of working app" />
+    <MESSAGE value="Things not needed set to ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Things not needed set to ignore" />
   </component>
 </project>
